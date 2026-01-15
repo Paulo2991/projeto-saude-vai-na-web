@@ -1,0 +1,38 @@
+$cor-preto: #0a0a0a;
+$cor-verde-logo: #00695c;
+$cor-texto-cinza: #a0a0a0;
+$cor-branco: #ffffff;
+
+.footer{
+    background-color: $cor-preto;
+    color: $cor-branco;
+    padding: 60px 20px 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.rodapeColuna{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    p{
+        font-size: 0.95rem;
+        width: 250px;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: column;
+    gap: 5px;
+    img{
+        width: 40px;
+    }
+}
